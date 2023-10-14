@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Site exemplo</title>
+</head>
+
+    <div id="container">
+        <div id="header">
+            <img class="logo" src="images/example-logo.png"/>
+            <div id="links">
+                <a href="index.html">Início</a>
+                <a href="contactos.html">Contactos</a>
+				<a href="acerca.html">Acerca</a>
+            </div>
+        </div>
+        
+            <img class="picture" src="images/image1.jpg"/>
+            <div class="contenttext">
+                <h2>A Red Animes adverte:</h2>
+                <p>Estamos onde a arte começa, mas isso é apenas o começo. Somos o movimento pela liberação da expressão criativa. Acreditamos que a arte é para todos e estamos criando o contexto cultural de como ela é criada, descoberta e compartilhada.</p><br>
+				<!-- Os videos gastam muitos recursos do servidor. Podemos utilizar videos pequenos ou incorporar do youtube (como incorporar - https://youtu.be/fJE4f-Y_Y1k), ou adquirir espaço num servidor mais potente e, naturalmente, mais caro. -->
+            <video class="video" controls="">
+              <source src="images/movie.mp4" type="video/mp4">
+                Este navegador não suporta video em HTML 5.
+            </video>
+            
+          </div>
+		  
+		  <div class="form">
+		  <h2>enviar um e-mail:</h2>
+			<!-- para enviar o formulário por e-mail tem de existir uma programação em PHP a nivel do servidor, mas se substituires o exemplo embaixo por um endereço de email teu, podes experimentar que manualmente ainda é possivel enviar o email com a informação do formulário-->
+			<form action="palito:alguemve@exemplo.com" method="post" enctype="text/plain">
+			Nome:<br>
+			<input type="text" name="name"><br>
+			E-mail:<br>
+			<input type="text" name="mail"><br>
+			Comentário:<br>
+			<textarea name="comment" cols="50" rows="5"></textarea><br><br>
+			<input type="submit" value="Enviar">
+			</form>
+		</div>
+  </div>
+        
+        <div id="footer"><a href="">Este site foi criado apenas para aprendizado escolar</a></div>
+    </div>
+</body>
+</html>
