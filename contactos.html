@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Site exemplo</title>
+</head>
+
+    <div id="container">
+        <div id="header">
+            <img class="logo" src="images/example-logo.png"/>
+            <div id="links">
+                <a href="index.html">Início</a>
+                <a href="contactos.html">Contactos</a>
+				<a href="acerca.html">Acerca</a>
+            </div>
+        </div>
+        
+            <img class="picture" src="images/image1.jpg"/>
+            <div class="contenttext">
+		  
+		  <div class="form">
+		  <h2>enviar um e-mail:</h2>
+			<!-- para enviar o formulário por e-mail tem de existir uma programação em PHP a nivel do servidor, mas se substituires o exemplo embaixo por um endereço de email teu, podes experimentar que manualmente ainda é possivel enviar o email com a informação do formulário-->
+			<form action="mailto:alguem@exemplo.com" method="post" enctype="text/plain">
+			Nome:<br>
+			<input type="text" name="name"><br>
+			E-mail:<br>
+			<input type="text" name="mail"><br>
+			Comentário:<br>
+			<textarea name="comment" cols="50" rows="5"></textarea><br><br>
+			<input type="submit" value="Enviar">
+			</form>
+		</div>
+  </div>
+        
+        <div id="footer"><a href="">Este site foi criado apenas para aprendizado escolar</a></div>
+    </div>
+</body>
+</html>
